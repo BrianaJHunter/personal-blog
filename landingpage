@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
+<!--
+<link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'> -->
+
+	<title>The Bougie Hippy</title>
+
+<style>
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
+img { 
+	max-width: 100%;
+}
+
+body {
+	font-family: arial, tahoma, verdana;
+	color: black;
+}
+
+h1 {
+	font-family: "Shadows Into Light", "Comic Sans MS", sans-serif;
+	font-size: 24px;
+}
+
+h2 {
+	font-family: "Shadows Into Light"; /* update */
+	font-size: 20px;
+	color: #bada55;
+}
+
+h5 {
+	font-family: arial, tahoma, verdana;
+	font-size: 10px;
+	color: #3e9dd6;
+}
+
+h6 {
+	color: #3e9dd6;
+}
+
+p {
+	font-family: arial;
+	font-size: 14px;
+	text-align: justify;
+}
+
+a {
+	font-family: arial, tahoma, verdana;
+	font-size: 14px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	color: #3e9dd6;
+}
+
+a:hover {
+	color: #bada55;
+}
+
+ul {
+	list-style: none;
+	margin-top: 40px;
+	overflow: hidden;
+	background-color: white;
+	font-family: serif;
+}
+
+footer {
+	bottom: 0;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	height: 75px;
+	width: 55px;
+}
+
+.row {
+	padding: 0 50px;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 12px;
+	padding: 0 8px;
+}
+
+.flex-container {
+	background-color: white;
+	text-align: center;
+	display: flex;	
+	flex-flow: row nowrap; /*shorthand for flex dir & wrap (default settings)*/
+	justify-content: space-around;
+	align-items: center; /*vertical alignment */
+	padding-bottom: 20px;
+}
+
+.flex-item-left {
+	background-color: white;
+	margin-left: 0;
+}
+
+.flex-item-middle {
+	background-color: white;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.flex-item-right {
+	background-color: white;
+	margin-right: 0;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	height: auto;
+}
+
+.container {
+	padding: 0 16px;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 600px) {
+	img {
+		max-width: 100%;
+	}
+	.body {
+		font-family: tahoma, arial, verdana;
+	}
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="flex-container">
+	<div class="flex-item-left">
+		<img src="C:\tbh/logo.png" id="logo">
+	</div>
+	<div class="flex-item-middle">
+		<h1>THE BOUGIE HIPPY</h1>
+		<a href="https://www.thebougiehippy.com/info">info</a> <b>|</b> 
+		<a href="https://www.thebougiehippy.com/blog">blog</a>
+	</div>
+
+	<div class="flex-item-right">
+		<a href="https://www.instagram.com/thebougiehippy/">
+			<img src="C:\tbh/ig.png" style="height: 20px; width: 25px;"></a>
+		<a href="https://www.facebook.com/TheBougieHippy/">
+			<img src="C:\tbh/fb.png" style="height: 20px; width: 25px;"></a>
+		<a href="https://www.linkedin.com/in/brianajhunter/">
+			<img src="C:\tbh/li.png" style="height: 20px; width: 25px;"></a>
+	</div>
+</div>
+</header>
+
+<div class="row" style="padding-top: 50px;">
+	<div class="column" >
+		<div class="card">
+			<img src="C:\tbh/whentheyseeus.jpg" alt="The Exonerated Five" style="width: 100%;">
+		<div class="container">
+			<a href="https://www.thebougiehippy.com/blog/when-they-see-us"><h2>When They See Us</h2></a>
+			<h5>June 6, 2019</h5>
+			<p>Ava DuVernay's Netflix exclusive uncovers how five minority minors were wrongfully convicted of rape. The Exonerated Five's grueling journey sheds light on our flawed justice system.</p>
+		</div>
+	</div>
+</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/metgala.jpg" alt="Billy Porter MET Gala 2019">
+		<div class="container">
+			<a href="https://www.thebougiehippy.com/blog/met-gala-2019"><h2>MET Gala 2019</h2></a>
+			<h5>May 7, 2019</h5>
+			<p>Everybody knows the first Monday in May is fashion's most important holiday! MoMA's annual charity event brought vibrance and drama to the museum's red carpet with this year's theme: "Camp: Notes on Fashion"!</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/stackedbowls.jpg" alt="stacked bowls">
+		<div class="container">
+			<h2>Jamaican Jerk Chicken Recipe</h2>
+			<h5>April 30, 2019</h5>
+			<p>Make authentic Jamaican Jerk Chicken using my easy-to-follow video tutorial and recipe! Complete with preparation and cooking instructions for stovetop, oven, and grill.</p>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/ddbl.jpeg" alt="Matthew Castilla Dark Days Bright Lights">
+		<div class="container">
+			<h2>"Dark Days/Bright Lights" by Matthew Castilla</h2>
+			<h5>April 21, 2019</h5>
+			<p>My album review and up-close and personal interview with Matthew Castilla. We discuss his humble beginnings, creative process, and future aspirations.</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="tampamompop.jpg" alt="Briana J Hunter at Datz">
+		<div class="container">
+			<h2>Tampa Mom/Pop Businesses</h2>
+			<h5>Date</h5>
+			<p>A local Tampa Bay area guide to my favorite food, hangout, and beauty spots owned by locals!</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/victory.jpg" alt="Sizzla Kalonji Victory album">
+		<div class="container">
+			<h2>"Victory" by Sizzla Kalonji</h2>
+			<h5>Date</h5>
+			<p>Jamaican reggae king, Sizzla Kalonji delivered yet another flawless album. Filled with invaluable life lessons and powerful revelations, the soulful project is laced with African drums.</p>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/pyermossblm.jpeg" alt="Pyer Moss sneaker I cant breathe" style="height: 300px; width: 400px;">
+		<div class="container">
+			<h2>10 Black Owned Luxury Brands</h2>
+			<h5>Date</h5>
+			<p>In honor of Black History Month, I've compiled a list of 10 high-end, black owned clothing labels. These talented designers&mdash;whether old or new&mdash;are more than worth the splurge!</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/roses.jpg" alt="roses with stems">
+		<div class="container">
+			<h2>Homemade Rosewater Toner</h2>
+			<h5>Date</h5>
+			<p>Don't let another bouquet of flowers go to waste! Use my all natural recipe for calmin and hydrating, homemade rosewater toner.</p>
+		</div>
+		</div>
+	</div>	
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/kusama.jpg" alt="Yayoi Kusama: Love Is Calling exhibition">
+		<div class="container">
+			<h2>Yayoi Kusama</h2>
+			<h5>Date</h5>
+			<p>My review of artist Yayoi Kusama's "Kusama: Infinity" documentary screening at the Tampa Theatre and "Love Is Calling" gallery exhibition at the Tampa Museum of Art.</p>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/dapperdanlv.jpg" alt="Dapper Dan in Louis Vuitton">
+		<div class="container">
+			<h2>Diversity in Fashion</h2>
+			<h5>Date</h5>
+			<p>Given the recent racist mishaps by classic luxury brands, I dive into diversity in fashion, or lack thereof. While I do believe in industry racism, I believe cultural appropriation is a more pressing issue.</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/tyn.jpg" alt="Ariana Granda thank u next" style="width: 100%;">
+		<div class="container">
+			<h2>"thank u, next" by Ariana Grande</h2>
+			<h5>Date</h5>
+			<p>My review of Ariana Grande's fifth studio album. The powerful women's soundtrack navigates through the complexities of relationships, before arriving at the ultimate destination: self-love.</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+			<img src="C:\tbh/smokymtns.jpg" alt="Smoky Mountains balcony view">
+		<div class="container">
+			<h2>New Beginnings: Great Smoky Mountains</h2>
+			<h5>Date</h5>
+			<p>A recap of my weekend cabin trip to the Great Smoky Mountains in Tennessee. Scenic views, bonding with 23 strangers, and good food left me feeling revitalized!</p>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- FOR INFO PAGE
+<img src="C:\tbh/email.jpg" style="height: 30px; width: 40px;">
+-->
+</body>
+	<footer>
+		<h6>"I am my own muse.<br> I am the subject I know best.<br> The subject I want to better."<br> <font color="#bada55">-Frida Kahlo</font></h6>
+	</footer>
+</html>
