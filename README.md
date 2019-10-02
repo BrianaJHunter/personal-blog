@@ -1,5 +1,4 @@
 # TBHBlog
-The Bougie Hippy Blog
-Curated by Briana J. Hunter
-Covering Fashion, Lifestyle, Sustainability, and Music
-Based out of Orlando, FL
+
+<b>The Bougie Hippy</b>
+<p>A personal blog curated by <i>Briana J. Hunter</i> covering fashion, lifestyle, sustainability, and music, based out of Orlando, FL</p>
