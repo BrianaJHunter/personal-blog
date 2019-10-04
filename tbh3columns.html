@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
 
-	<title>The Bougie Hippy</title>
+	<title>Blog | The Bougie Hippy</title>
 
 <style>
 html {
@@ -38,6 +38,8 @@ h2 {
 	font-family: "Shadows Into Light"; /* update font */
 	font-size: 20px;
 	color: #bada55;
+	text-decoration: underline;
+	text-decoration-color: #bada55;
 }
 
 h5 {
@@ -62,17 +64,24 @@ a {
 }
 
 a:link, a:visited {
-	text-decoration: none;
-	color: black;
-}
-
-a:active {
-	text-decoration: none;
-	color: #3e9dd6;
+	text-decoration: underline;
+	text-decoration-color: #bada55;
+	color: #bada55;
 }
 
 a:hover {
-	color: #bada55;
+	color: #3e9dd6;
+	text-decoration: underline;
+}
+
+a.header:link, a.header:visited {
+	text-decoration: underline;
+	color: #000000;
+}
+
+a.header:hover {
+	color: #3e9dd6;
+	text-decoration: underline;
 }
 
 ul {
@@ -172,8 +181,8 @@ footer {
 	</div>
 	<div class="flex-item-middle">
 		<h1>THE BOUGIE HIPPY</h1>
-		<a href="tbhinfopg.html">info</a> <b>|</b> 
-		<a href="tbh3columns.html">blog</a>
+		<a href="bloginfopg.html" class="header">info</a> <b>|</b> 
+		<a href="C:/tbh/tbh3columns.html" class="header">blog</a>
 	</div>
 
 	<div class="flex-item-right">
