@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
+
+	<title>The Bougie Hippy</title>
+
+<style>
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	top: 0;
+	width: 100%;
+}
+
+img { 
+	max-width: 100%;
+}
+
+body {
+	font-family: arial, tahoma, verdana;
+	color: black;
+}
+
+h1 {
+	font-family: "Shadows Into Light", "Comic Sans MS", sans-serif;
+	font-size: 24px;
+}
+
+h2 {
+	font-family: "Shadows Into Light"; /* update font */
+	font-size: 20px;
+	color: #bada55;
+}
+
+h5 {
+	font-family: arial, tahoma, verdana;
+	font-size: 10px;
+	color: #3e9dd6;
+}
+
+h6 {
+	color: #3e9dd6;
+}
+
+p {
+	font-family: arial;
+	font-size: 14px;
+	text-align: justify;
+}
+
+a {
+	font-family: arial, tahoma, verdana;
+	font-size: 14px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: #3e9dd6;
+}
+
+a:hover {
+	color: #bada55;
+}
+
+ul {
+	list-style: none;
+	margin-top: 40px;
+	overflow: hidden;
+	background-color: white;
+	font-family: serif;
+}
+
+footer {
+	bottom: 0;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	height: 75px;
+	width: 55px;
+}
+
+.row {
+	padding: 0 50px;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 12px;
+	padding: 0 8px;
+}
+
+.flex-container {
+	background-color: #FFFFFF;
+	text-align: center;
+	display: flex;	
+	flex-flow: row nowrap; /*shorthand for flex dir & wrap (default settings)*/
+	justify-content: space-around;
+	align-items: center; /*vertical alignment */
+	padding-bottom: 20px;
+}
+
+.flex-item-left {
+	background-color: white;
+	margin-left: 0;
+}
+
+.flex-item-middle {
+	background-color: white;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.flex-item-right {
+	background-color: white;
+	margin-right: 0;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+.container {
+	padding: 0 16px;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 600px) {
+	img {
+		max-width: 100%;
+	}
+	.body {
+		font-family: tahoma, arial, verdana;
+	}
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="flex-container">
+	<div class="flex-item-left">
+		<img src="C:\tbh/img/logo.png" id="logo">
+	</div>
+	<div class="flex-item-middle">
+		<h1>THE BOUGIE HIPPY</h1>
+		<a href="tbhinfopg.html">info</a> <b>|</b> 
+		<a href="tbh3columns.html">blog</a>
+	</div>
+
+	<div class="flex-item-right">
+		<a href="https://www.instagram.com/thebougiehippy/">
+			<img src="C:\tbh/img/ig.png" style="height: 20px; width: 25px;"></a>
+		<a href="https://www.facebook.com/TheBougieHippy/">
+			<img src="C:\tbh/img/fb.png" style="height: 20px; width: 25px;"></a>
+		<a href="https://www.linkedin.com/in/brianajhunter/">
+			<img src="C:\tbh/img/li.png" style="height: 20px; width: 25px;"></a>
+	</div>
+</div>
+</header>
+
+<div class="row" style="padding-top: 20px;">
+	<div class="column" >
+		<div class="card">
+<!--			<img src="C:\tbh/img/koreywise.jpg" alt="The Exonerated Five">
+		<div class="container"> -->
+			<a href="whentheyseeus.html"><h2>When They See Us</h2></a>
+			<h5>June 6, 2019</h5>
+			<p>Ava DuVernay's Netflix exclusive uncovers how five minority minors were wrongfully convicted of rape. The Exonerated Five's grueling journey sheds light on our flawed justice system.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/metgala.jpg" alt="Billy Porter MET Gala 2019">
+		<div class="container"> -->
+			<h2>MET Gala 2019</h2>
+			<h5>May 7, 2019</h5>
+			<p>The first Monday in May&mdash;fashion's most important holiday&mdash;brought vibrance and drama to the MoMA red carpet with this year's theme: "Camp: Notes on Fashion"!</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/stackedbowls.jpg" alt="stacked bowls">
+		<div class="container"> -->
+			<h2>Jamaican Jerk Chicken Recipe</h2>
+			<h5>April 30, 2019</h5>
+			<p>Make authentic Jamaican Jerk Chicken using my easy-to-follow video tutorial and recipe! Complete with preparation and cooking instructions for stovetop, oven, and grill.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/ddbl.jpeg" alt="Matthew Castilla Dark Days Bright Lights">
+		<div class="container"> -->
+			<h2>"Dark Days/Bright Lights" by Matthew Castilla</h2>
+			<h5>April 21, 2019</h5>
+			<p>My album review and up-close and personal interview with Matthew Castilla. We discuss his humble beginnings, creative process, and future aspirations.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/tampamompop.jpg" alt="Briana J Hunter at Datz">
+		<div class="container"> -->
+			<h2>Tampa Mom/Pop Businesses</h2>
+			<h5>March 28, 2019</h5>
+			<p>A local Tampa Bay area guide to my favorite food, hangout, and beauty spots owned by locals!</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/victory.jpg" alt="Sizzla Kalonji Victory album">
+		<div class="container"> -->
+			<h2>"Victory" by Sizzla Kalonji</h2>
+			<h5>March 19, 2019</h5>
+			<p>Jamaican reggae king, Sizzla Kalonji delivered yet another flawless album. Filled with invaluable life lessons and powerful revelations, the soulful project is laced with African drums.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+	<!--		<img src="C:\tbh/img/pyermossblm.jpeg" alt="Pyer Moss sneaker I cant breathe" style="height: 300px; width: 400px;"> -->
+			<h2>10 Black Owned Luxury Brands</h2>
+			<h5>February 21, 2019</h5>
+			<p>In honor of Black History Month, I've compiled a list of 10 high-end, black owned clothing labels. These talented designers&mdash;whether old or new&mdash;are more than worth the splurge!</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/roses.jpg" alt="roses with stems">
+		<div class="container"> -->
+			<h2>Homemade Rosewater Toner</h2>
+			<h5>February 20, 2019</h5>
+			<p>Don't let another bouquet of flowers go to waste! Use my all natural recipe for calmin and hydrating, homemade rosewater toner.</p>
+		</div>
+	</div>	
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/kusama.jpg" alt="Yayoi Kusama: Love Is Calling exhibition">
+		<div class="container"> -->
+			<h2>Yayoi Kusama</h2>
+			<h5>February 14, 2019</h5>
+			<p>My review of artist Yayoi Kusama's "Kusama: Infinity" documentary screening at the Tampa Theatre and "Love Is Calling" gallery exhibition at the Tampa Museum of Art.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/dapperdanlv.jpg" alt="Dapper Dan in Louis Vuitton">
+		<div class="container"> -->
+			<h2>Diversity in Fashion</h2>
+			<h5>February 12, 2019</h5>
+			<p>Given the recent racist mishaps by classic luxury brands, I dive into diversity in fashion, or lack thereof. While I do believe in industry racism, I believe cultural appropriation is a more pressing issue.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/tyn.jpg" alt="Ariana Granda thank u next" style="width: 100%;">
+		<div class="container"> -->
+			<h2>"thank u, next" by Ariana Grande</h2>
+			<h5>February 11, 2019</h5>
+			<p>My review of Ariana Grande's fifth studio album. The powerful women's soundtrack navigates through the complexities of relationships, before arriving at the ultimate destination: self-love.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/smokymtns.jpg" alt="Smoky Mountains balcony view">
+		<div class="container"> -->
+			<h2>New Beginnings: Great Smoky Mountains</h2>
+			<h5>February 6, 2019</h5>
+			<p>A recap of my weekend cabin trip to the Great Smoky Mountains in Tennessee. Scenic views, bonding with 23 strangers, and good food left me feeling revitalized!</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/gsamjr.jpg" alt="Gerard St. Aubin Mitchell">
+		<div class="container"> -->
+			<h2>It Takes A Village - GSAM, Jr.</h2>
+			<h5>January 26, 2019</h5>
+			<p>My tribute to my second father, Gerard St. Aubin Mitchell, Jr., the founder and CEO of Busy Radio Hartford. Rest In Paradise &hearts;</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/stackedbowls.jpg" alt="stackedbowls">
+		<div class="container"> -->
+			<h2>Jerk Turkey Recipe</h2>
+			<h5>November 19, 2018</h5>
+			<p>Revive your boring bird and put a spin on Thanksgiving this year with my Jamaican jerk turkey recipe!</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/tbfw.jpg" alt="Tampa Bay Fashion Week 2018">
+		<div class="container"> -->
+			<h2>Tampa Bay Fashion Week 2018</h2>
+			<h5>September 30, 2018</h5>
+			<p>My review of Tampa Bay Fashion Week's 2018 runway show at International Plaza and Bay Street! They showcased both local and non-local brands.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/ariel.jpg" alt="ariel">
+		<div class="container"> -->
+			<h2>The Circle of Life</h2>
+			<h5>July 31, 2018</h5>
+			<p>Celebrating the 73rd birthday of my maternal grandmother inspired me to pay tribute to both of my sweethearts.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/mhasp.jpg" alt="Mental Health Awareness and Suicide Prevention">
+		<div class="container"> -->
+			<h2>Mental Health Awareness and Suicide Prevention</h2>
+			<h5>July 5, 2018</h5>
+			<p>I interview mental health expert Dr. Stephen P. Hinshaw to get commonly asked mental health and suicide prevention questions answered.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/fabriclink.jpg" alt="FabricLink Textile Innovation Award Winner">
+		<div class="container"> -->
+			<h2>FabricLink's 2018 Top 10 Textile Innovation Award Winners</h2>
+			<h5>June 29, 2018</h5>
+			<p>FabricLink announced the winners of their 4th annual Top 10 Textile Awards, recognizing innovative sustainability in fashion.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/maga.jpg" alt="MAGA clothing">
+		<div class="container"> -->
+			<h2>MAGA: A Sustainable Image of Self</h2>
+			<h5>May 30, 2018</h5>
+			<p>MAGA, an upcycling, self-empowerment brand was created in 2015 by two Indian sisters, Mridu Agarwal and Gauri Agarwal.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/fastfashion.jpg" alt="Fast Fashion">
+		<div class="container"> -->
+			<h2>Fast Fashion: Easy On Our Pockets, Heavy On Our Environment</h2>
+			<h5>May 9, 2018</h5>
+			<p>See exactly how fast fashion is causing an environmental emergency and what the future plans are to clean up our mess.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/taehamm.jpg" alt="Tae Hamm">
+		<div class="container"> -->
+			<h2>Tae Hamm Interview</h2>
+			<h5>April 30, 2018</h5>
+			<p>I get up close and personal with artist Tae Hamm. In our interview, we dive into his origin, creative process, and future dreams.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/siizu.jpg" alt="Siizu Clothing">
+		<div class="container"> -->
+			<h2>Siizu: A Brand Which Upholds Ethical Fashion</h2>
+			<h5>February 16, 2018</h5>
+			<p>Siizu is an ethical, stylish brand using 100% organic, eco-friendly fabric to produce minimal waste garments, without compromising quality.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/oenotebooks.jpg" alt="Planner and Notebook">
+		<div class="container"> -->
+			<h2>New Year Prep</h2>
+			<h5>December 27, 2017</h5>
+			<p>Read about the annual rituals I perform to bring in the new year with good luck! Get help with budgeting goals and embracing positivity.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/tjadawedding.jpg" alt="SC Wedding">
+		<div class="container"> -->
+			<h2>Wedding Wear</h2>
+			<h5>November 8, 2017</h5>
+			<p>Outfit details from my cousin's charming Charleston, South Carolina wedding celebration.</p>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="card">
+<!--			<img src="C:\tbh/img/parents.jpg" alt="Mom and Dad modeling">
+		<div class="container"> -->
+			<h2>In My Veins</h2>
+			<h5>October 8, 2017</h5>
+			<p>My roots in fashion run deep. See how my parents sparked an early passion of mine with their mall runway shows.</p>
+		</div>
+	</div>
+</div>
+
+</body>
+	<footer>
+		<h6>"I am my own muse.<br> I am the subject I know best.<br> The subject I want to better."<br> <font color="#bada55">-Frida Kahlo</font></h6>
+	</footer>
+</html>
